@@ -104,11 +104,11 @@ You can now use the endpoint  `https://test-9e127.appspot.com/` as a the webhook
 Note that once 15 versions have been uploaded to Google Cloud, you will have to start deleting them.
 To do so, run this command to see what versions are running:
 
-`gcloud app versions list`
+`$ gcloud app versions list`
 
 and then this command to delete older versions:
 
-`gcloud app versions delete [version_id]`
+`$ gcloud app versions delete [version_id]`
 
 ### Testing
 
