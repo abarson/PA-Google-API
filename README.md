@@ -99,6 +99,16 @@ Once you have Google Cloud SDK installed on you machine, and you are ready to de
  `$ gradle google-sample:appengineDeploy`
  or
  `$ ./gradlew google-sample:appengineDeploy`
+ 
+You can now use the endpoint  `https://test-9e127.appspot.com/` as a the webhook for your fulfillment.
+Note that once 15 versions have been uploaded to Google Cloud, you will have to start deleting them.
+To do so, run this command to see what versions are running:
+
+`gcloud app versions list`
+
+and then this command to delete older versions:
+
+`gcloud app versions delete [version_id]`
 
 ### Testing
 
