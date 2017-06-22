@@ -79,6 +79,7 @@ public class AppEngineResponseHandler implements ResponseHandler {
         gson.toJson(rootResponse, httpServletResponse.getWriter());
     }
 }
+```
 
 ## How to deploy this project to Google Cloud
 
