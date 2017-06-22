@@ -8,7 +8,7 @@ Google Actions Java SDK is build based on official Node.js library, but it's not
 
 ### Assistant Actions Java SDK
 
-##com.frogermcs.gactions
+## com.frogermcs.gactions
 
 This code is responsible for handling requests and responses compatible with [Conversational Protocol](https://docs.api.ai/docs/webhook#webhook-requirements). 
 
@@ -87,7 +87,7 @@ public class AppEngineResponseHandler implements ResponseHandler {
 
 ### Google Cloud
 
-- Follow steps from here: https://cloud.google.com/sdk/docs/. At the end you should have created Project, know your application id, and be able to use gcloud on your computer. 
+- Follow steps from here: https://cloud.google.com/sdk/docs/. At the end you should be able to use gcloud on your computer. 
 
 ### Configuration
 
@@ -102,6 +102,4 @@ Once you have Google Cloud SDK installed on you machine, and you are ready to de
 
 ### Testing
 
-[Web Simulator](https://developers.google.com/actions/tools/web-simulator)
-
-![Web Simulator](https://raw.githubusercontent.com/frogermcs/Google-Actions-Java-SDK/master/art/actions_web_simulator.png "Web Simulator")
+You can use the [Web Simulator](https://developers.google.com/actions/tools/web-simulator) or [API.AI](https://console.api.ai/) 
